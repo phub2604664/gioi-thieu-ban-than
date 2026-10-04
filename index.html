@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Bùi Minh Phú</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f7f6f2;
+            color: #1a1a1a;
+            line-height: 1.6;
+            padding: 72px 24px;
+        }
+
+        .container {
+            max-width: 620px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 19px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            color: #111111;
+            padding-bottom: 18px;
+            margin-bottom: 6px;
+            border-bottom: 1px solid #dfddd6;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            display: grid;
+            grid-template-columns: 190px 1fr;
+            column-gap: 20px;
+            padding: 13px 0;
+            border-bottom: 1px solid #ebe9e3;
+            font-size: 14.5px;
+            color: #222222;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        strong {
+            font-weight: 500;
+            color: #73716b;
+        }
+
+        @media (max-width: 580px) {
+            body {
+                padding: 40px 18px;
+            }
+
+            li {
+                grid-template-columns: 1fr;
+                row-gap: 3px;
+                padding: 11px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Thông Tin Cá Nhân</h1>
+    <ul>
+        <li><strong>Họ tên:</strong> Bùi Minh Phú</li>
+        <li><strong>Ngày sinh:</strong> 29/09/2008</li>
+        <li><strong>Địa chỉ:</strong> Cần Thơ</li>
+        <li><strong>Quá trình học:</strong> Sinh viên Đại Học Cần Thơ.</li>
+        <li><strong>Lĩnh vực chuyên môn:</strong> Kỹ thuật Phần Mềm.</li>
+        <li><strong>Kinh nghiệm:</strong> C++ cơ bản, đang tìm hiểu và học hỏi về phát triển ứng dụng.</li>
+        <li><strong>Sở thích:</strong> nhạc cụ,cờ vua .</li>
+        <li><strong>Các thành tích cá nhân:</strong> Từng đạt một số giải cờ vua</li>
+    </ul>
+</div>
+
+</body>
+</html>
